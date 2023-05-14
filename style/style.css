@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+
+
+.hero-cycle {
+    animation: fill 5s ease infinite;
+}
+
+@keyframes fill {
+    0% {
+
+        left: 0%
+    }
+
+    50% {
+        left: 50%
+    }
+
+    100% {
+        left: 80%;
+    }
+}
